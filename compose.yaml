@@ -1,0 +1,7 @@
+﻿services:
+  localvault_api:
+    image: localvault_api
+    build:
+      context: .
+      dockerfile: LocalVault_Api/Dockerfile
+
